@@ -24,3 +24,18 @@ Route::post('/welcome', function () {
     // $test = 0;
     // return view('welcome',compact("test"));
 });
+Route::get('/string', function () {
+    return view('string');
+});
+Route::get('/function', function () {
+    return view('function');
+});
+Route::get('/conditional', function () {
+    return view('conditional');
+});
+Route::get('/looping', function () {
+    return view('looping');
+});
+Route::get('/array', function () {
+    return view('array');
+});
