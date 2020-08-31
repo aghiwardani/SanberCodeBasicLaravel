@@ -8,7 +8,7 @@
     </head>
     <body>
         <div class="col-md-3">
-            <form action="{{ url('/welcome') }}" method="post">
+            <form action="{{ url('Week1/welcome') }}" method="post">
                 @csrf
                 <h2>Buat Account Baru!</h2>
                 <h3>Sign Up Form</h3>

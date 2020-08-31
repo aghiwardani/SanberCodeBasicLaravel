@@ -17,36 +17,30 @@ Route::get('/', function () {
     return view('index');
 });
 //Index Tugas Pekan Hari
-Route::get('/p1h1', function () {return view('index');});
-Route::get('/p1h2', function () {return view('index');});
-Route::get('/p1h3', function () {return view('index');});
-Route::get('/p1h4', function () {return view('index');});
-Route::get('/p1h5', function () {return view('index');});
+Route::get('/p1h1', function () {return view('Week1/index_week1_day1');});
+Route::get('/p1h2', function () {return view('Week1/index_week1_day2');});
+Route::get('/p1h3', function () {return view('Week1/index_week1_day3');});
+Route::get('/p1h4', function () {return view('Week1/index_week1_day4');});
+Route::get('/p1h5', function () {return view('Week1/index_week1_day5');});
 
-Route::get('/p2h1', function () {return view('index_week2_day1');});
+Route::get('/p2h1', function () {return view('Week2/index_week2_day1');});
 
-Route::get('/form', function () {
-    return view('form');
-});
-Route::post('/welcome', function () {
-    return view('welcome');
-    // $test = 0;
-    // return view('welcome',compact("test"));
-});
+Route::get('Week1/form', function () {return view('Week1/form');});
+Route::post('Week1/welcome', function () {return view('Week1/welcome');});
 
-Route::get('/string', function () {
+Route::get('Week1/string', function () {
     return view('string');
 });
-Route::get('/function', function () {
+Route::get('Week1/function', function () {
     return view('function');
 });
-Route::get('/conditional', function () {
+Route::get('Week1/conditional', function () {
     return view('conditional');
 });
-Route::get('/looping', function () {
+Route::get('Week1/looping', function () {
     return view('looping');
 });
-Route::get('/array', function () {
+Route::get('Week1/array', function () {
     return view('array');
 });
 

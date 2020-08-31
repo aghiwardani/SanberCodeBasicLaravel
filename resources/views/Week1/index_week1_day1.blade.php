@@ -14,7 +14,7 @@
       <h4>BCara Bergabung ke SanberBook</h4>
        <ol>
         <li>Mengunjungi Website ini</li>
-        <li>Mendaftar di <a href="{{ url('/form') }}">Form Sign Up</a></li>
+        <li>Mendaftar di <a href="{{ url('Week1/form') }}">Form Sign Up</a></li>
         <li>Selesai!</li>
        </ol>
     </body>
