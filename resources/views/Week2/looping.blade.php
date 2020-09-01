@@ -95,13 +95,23 @@
         
         // Output: 
         // echo 
-        for ($i=0; $i < count($items); $i++) { 
-            # code...
-            // for ($j=0; $j < count($items[$i]); $j++) { 
-                # code...
-                echo "Array ( [id] => ".$items[$i][0]." [name] => ".$items[$i][1]." [price] => ".$items[$i][2]." [description] => ".$items[$i][3]." [source] => ".$items[$i][4]." ) <br>";
-            // }
-        }
+        $Associative = array_map(function ($index){
+            return [
+                "id" => $index[0],
+                "name" => $index[1],
+                "price" => $index[2],
+                "description" => $index[3],
+                "source" => $index[4],
+            ];
+        }, $items);
+        print_r ($Associative);
+        // for ($i=0; $i < count($items); $i++) { 
+        //     # code...
+        //     // for ($j=0; $j < count($items[$i]); $j++) { 
+        //         # code...
+        //         echo "Array ( [id] => ".$items[$i][0]." [name] => ".$items[$i][1]." [price] => ".$items[$i][2]." [description] => ".$items[$i][3]." [source] => ".$items[$i][4]." ) <br>";
+        //     // }
+        // }
         
         echo "<h3>Soal No 4 Asterix </h3>";
         /* 
