@@ -25,6 +25,7 @@ Route::get('/p1h5', function () {return view('Week1/index_week1_day5');});
 
 Route::get('/p2h1', function () {return view('Week2/index_week2_day1');});
 Route::get('/p2h2', function () {return view('Week2/index_week2_day2');});
+Route::get('/p2h3', function () {return view('Week2/index_week2_day3');});
 
 //Route Tugas Pekan 1
 Route::get('Week1/form', function () {return view('Week1/form');});
@@ -42,3 +43,8 @@ Route::get('/p2h1/array', function () {return view('Week2/array');});
 //Route Tugas Pekan 2 hari 2
 Route::get('/p2h2/looping', function () {return view('Week2/looping');});
 Route::get('/p2h2/fuction-conditional', function () {return view('Week2/function-conditional');});
+
+//Route Tugas Pekan 2 hari 2
+Route::get('/p2h2/tentukan-nilai', function () {return view('Week2/Controller/tentukan-nilai');});
+Route::get('/p2h2/ubah-huruf', function () {return view('Week2/Controller/ubah-huruf');});
+Route::get('/p2h2/tukar-besar-kecil', function () {return view('Week2/Controller/tukar-besar-kecil');});
