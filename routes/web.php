@@ -26,6 +26,7 @@ Route::get('/p1h5', function () {return view('Week1/index_week1_day5');});
 Route::get('/p2h1', function () {return view('Week2/index_week2_day1');});
 Route::get('/p2h2', function () {return view('Week2/index_week2_day2');});
 Route::get('/p2h3', function () {return view('Week2/index_week2_day3');});
+Route::get('/p2h4', 'index_week2_day4@view');
 
 //Route Tugas Pekan 1
 Route::get('Week1/form', function () {return view('Week1/form');});
