@@ -17,6 +17,7 @@
         <li><a href="{{ url('/p2h2') }}">Tugas Hari 2</a></li>
         <li><a href="{{ url('/p2h3') }}">Tugas Hari 3</a></li>
         <li><a href="{{ url('/p2h4') }}">Tugas Hari 4</a></li>
+        <li><a href="{{ url('/p2h5') }}">Tugas Hari 5</a></li>
        </ol>
     </body>
 </html>
